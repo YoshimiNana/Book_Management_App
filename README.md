@@ -12,5 +12,5 @@
   * 新規登録
   * 編集
 
-* 使用時には、staticsフォルダの中にBootstrap5のcssフォルダを置く
+* 使用時には、flask_book_management/staticsの中にBootstrap5のcssフォルダを置く
 
