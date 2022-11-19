@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h2 class="m-5">編集</h2>
+<div class="m-5" class="form">
+    <form action="/update/{{ post.id }}" method="POST">
+        <div class="form-group pb-3">
+            <label for="title">本のタイトル</label>
+            <input type="text" class="form-control" name="title" aria-describedby="title-help" value={{ post.title }} required>
+        </div>
+        <div class="form-group pb-3">
+            <label for="vol">持っている巻数</label>
+            <input type="number" class="form-control" name="vol" min="0" value={{ post.vol }} required>
+        </div>
+        <div class="form-group pb-3">
+            <label for="note">備考</label>
+            <input type="text" class="form-control" name="note" value={{ post.note }}>
+        </div>
+        <a class="btn btn-outline-primary" href="/" role="button">戻る</a>
+        <button type="submit" class="btn btn-primary">完了</button>
+    </form>
+</div>
+{% endblock %}
