@@ -1,5 +1,5 @@
 ## 書籍管理システム
-* Flaskを使用して書籍を管理するWebアプリを作成  https://yona.pythonanywhere.com/
+* Flaskを使用して書籍を管理するWebアプリを作成 　[Webアプリのリンク先](https://yona.pythonanywhere.com/)
 
 * データベースには以下の情報を含める
   * ID
